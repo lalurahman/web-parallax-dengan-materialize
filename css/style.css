@@ -1,0 +1,94 @@
+.slider{
+	font-family: baloo;
+}
+
+h3{
+	font-family: baloo;
+}
+
+.brand-logo img{
+	margin-top: 15px;
+}
+
+.slides img{
+	background-attachment: fixed;
+}
+
+.kiri, .kanan{
+	opacity: 0;
+	transform: translate(-100px, 0);
+	transition: 2s;
+}
+
+.kanan{
+	transform: translate(100px, 0);
+}
+
+.kiri.pmuncul, .kanan.pmuncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.active-nav{
+	color: white;
+	background-color: rgba(0,0,0,0.1);
+}
+
+hr{
+	width: 50px;
+	border-top: 2px solid grey;
+}
+
+section{
+	min-height: 400px;
+}
+
+
+.materi img{
+	background-size: cover;
+}
+
+.materi a{
+	color: black;
+}
+
+.card-panel a:hover{
+	color: teal;
+}
+
+.materi .card-panel{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: 1s;
+
+}
+
+.materi .card-panel.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+/*.portfolio .box{
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: 1s;
+}
+
+.portfolio .box.bmuncul{
+	opacity: 1;
+	transform: translate(0,0);
+
+}*/
+
+
+.partners{
+	max-height: 300px;
+}
+
+.partners img{
+	width: 200px;
+}
+
+footer{
+	padding: 20px 0;
+}
